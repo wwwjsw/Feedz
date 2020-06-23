@@ -135,3 +135,12 @@ export const TextButton = styled.Text`
    color: #ffffff;
    text-transform: uppercase;
 `;
+
+export const CountCaracter = styled.Text`
+   font-family: 'Roboto-Light';
+   font-size: 14px;
+   color: #000;
+   padding: 0;
+   margin: 0px 10px 0px 10px;
+   text-align: right;
+`;

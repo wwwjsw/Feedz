@@ -25,6 +25,7 @@ import {
    FabButton,
    FormControl,
    FormInput,
+   CountCaracter,
 } from './styles';
 
 const Home: React.FC = () => {
@@ -190,11 +191,16 @@ const Home: React.FC = () => {
                      numberOfLines={0}
                      scrollEnabled
                      autoFocus
+                     maxLength={280}
                      autoCorrect={false}
                      value={data}
                      onChangeText={setData}
                   />
                </FormControl>
+               <CountCaracter>
+                  {data.length}
+                  /280
+               </CountCaracter>
                <ActionButton
                   marginTop="10px"
                   onPress={(): void => {
@@ -208,6 +214,7 @@ const Home: React.FC = () => {
                   backgroundColor="#000"
                   onPress={(): void => {
                      setModalVisible(false);
+                     setData('');
                   }}
                >
                   <TextButton>Cancelar</TextButton>
