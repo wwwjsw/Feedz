@@ -9,6 +9,7 @@ import {
 } from '@react-navigation/drawer';
 import { CompositeNavigationProp } from '@react-navigation/native';
 import HomeScreen from '../screens/Home';
+import NovidadesScreen from '../screens/Novidades';
 import menuOptions from '../data/menu.json';
 import SideBar from '../components/SideBar';
 
@@ -48,6 +49,7 @@ function DrawerNavigator(): ReactElement {
          }}
       >
          <Stack.Screen name="HomeScreen" component={HomeScreen} />
+         <Stack.Screen name="NovidadesScreen" component={NovidadesScreen} />
       </Drawer.Navigator>
    );
 }
