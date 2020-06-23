@@ -1,0 +1,13 @@
+[
+   {
+      "id": 1,
+      "label": "Início",
+      "page": "HomeScreen",
+      "selected": true
+   },
+   {
+      "id": 2,
+      "label": "Novidades Boticário",
+      "page": "Aulas"
+   }
+]
