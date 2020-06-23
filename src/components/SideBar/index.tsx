@@ -17,8 +17,6 @@ import {
    SidebarContainer,
    TextButton,
    ViewLine,
-   ViewLogoOn,
-   ImgLogo,
    ViewInfoCircle,
    ViewCircle,
    TextAbreviateName,
@@ -45,9 +43,6 @@ const SideBar: React.FC<ISidebar> = ({ props, menuOptions }) => {
    return (
       <DrawerContentScrollView {...props}>
          <SidebarContainer>
-            <ViewLogoOn>
-               <ImgLogo source={logo} resizeMode="contain" />
-            </ViewLogoOn>
             <ViewInfoCircle>
                <ViewCircle>
                   <TextAbreviateName>UN</TextAbreviateName>

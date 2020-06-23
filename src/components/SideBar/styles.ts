@@ -29,18 +29,6 @@ export const ViewLine = styled.View<ISideBar>`
    margin-left: 50px;
 `;
 
-export const ViewLogoOn = styled.View`
-   width: 100%;
-   margin-top: 40px;
-   align-items: flex-end;
-`;
-
-export const ImgLogo = styled.Image`
-   width: 30px;
-   height: 30px;
-   margin-right: 16px;
-`;
-
 export const ViewInfoCircle = styled.View`
    width: 100%;
    height: 90px;
