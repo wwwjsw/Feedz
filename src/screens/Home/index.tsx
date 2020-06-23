@@ -132,6 +132,9 @@ const Home: React.FC = () => {
    }
 
    function Item({ post }: { post: IPost }): ReactElement {
+      const calendario = new Date(post.data).toLocaleDateString();
+      const hora = new Date(post.data).toLocaleTimeString();
+
       return (
          <PostCard>
             <PostCardTitle>
@@ -143,7 +146,7 @@ const Home: React.FC = () => {
             </PostCardTitle>
             <PostCardContent>
                <PostCardName>{post.nome}</PostCardName>
-               <PostCardData>{new Date(post.data).toString()}</PostCardData>
+               <PostCardData>{`${calendario} - ${hora}`}</PostCardData>
                <PostCardText>{post.texto}</PostCardText>
             </PostCardContent>
             {post.usuario === 'beta' && (
