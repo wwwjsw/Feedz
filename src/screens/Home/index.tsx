@@ -101,7 +101,7 @@ const Home: React.FC = () => {
       const post = {
          id: (Math.random() * (1000 - 0) + 0).toString(),
          nome: 'Beta teste da silva',
-         data: new Date().toISOString(),
+         data: new Date().toLocaleString(),
          foto: 'https://api.adorable.io/avatars/285/betatestedasilva.png',
          texto,
          usuario: 'beta',
@@ -143,7 +143,7 @@ const Home: React.FC = () => {
             </PostCardTitle>
             <PostCardContent>
                <PostCardName>{post.nome}</PostCardName>
-               <PostCardData>{new Date(post.data).toUTCString()}</PostCardData>
+               <PostCardData>{new Date(post.data).toString()}</PostCardData>
                <PostCardText>{post.texto}</PostCardText>
             </PostCardContent>
             {post.usuario === 'beta' && (
