@@ -10,7 +10,7 @@ const App: React.FC = () => {
    const [isSigned, setSigned] = useState(Boolean);
 
    useEffect(() => {
-      async function getTokenFromStorage(): Promise<any> {
+      async function getTokenFromStorage(): Promise<void> {
          const token = await AsyncStorage.getItem('BearerToken');
 
          if (token) {
@@ -18,7 +18,6 @@ const App: React.FC = () => {
 
             return;
          }
-
          setSigned(false);
       }
 

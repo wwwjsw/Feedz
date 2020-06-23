@@ -8,45 +8,6 @@ import { signInSuccess } from './actions';
 import api from '../../../services/api';
 import NavigationService from '../../../services/navigation';
 
-// export function* signIn({ payload: { email, password } }: AnyAction): object {
-//    try {
-//       const response = yield call(api.post, '/api/authentication', {
-//          email,
-//          password,
-//       });
-
-//       if (response.data.token) {
-//          yield put(signInSuccess(response.data.token));
-//          yield call(
-//             [AsyncStorage, 'setItem'],
-//             'RentGoToken',
-//             response.data.token,
-//          );
-
-//          const res = yield call(api.get, '/api/passenger-auth');
-//          yield call(
-//             [AsyncStorage, 'setItem'],
-//             'RentGoUser',
-//             JSON.stringify(res.data.result[0]),
-//          );
-
-//          NavigationService.navigate('Home');
-//       }
-//    } catch (error) {
-//       console.tron.log('error', error);
-//    }
-// }
-
-// export async function signOut(): Promise<void> {
-//    try {
-//       await AsyncStorage.clear();
-
-//       NavigationService.navigate('Login');
-//    } catch (error) {
-//       console.tron.log('erro');
-//    }
-// }
-
 const saveItemStorage = async (item: string, valor: string): Promise<void> => {
    try {
       await AsyncStorage.setItem(`${item}`, JSON.stringify(valor));
@@ -57,7 +18,7 @@ const saveItemStorage = async (item: string, valor: string): Promise<void> => {
 
 const removeItemStorage = async (item: string): Promise<void> => {
    try {
-      await AsyncStorage.removeItem('BearerToken');
+      await AsyncStorage.removeItem(item);
       NavigationService.navigate('Login');
    } catch (error) {
       console.log(error.message);

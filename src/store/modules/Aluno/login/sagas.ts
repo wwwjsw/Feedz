@@ -17,8 +17,7 @@ const saveItemStorage = async (item: string, valor: string): Promise<void> => {
 
 const removeItemStorage = async (item: string): Promise<void> => {
    try {
-      console.tron.log('oba');
-      await AsyncStorage.removeItem('BearerToken');
+      await AsyncStorage.removeItem(item);
       NavigationService.navigate('Login');
    } catch (error) {
       console.log(error.message);
