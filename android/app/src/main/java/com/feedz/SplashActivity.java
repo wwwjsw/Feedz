@@ -1,4 +1,4 @@
-package com.positivoon;
+package com.feedz;
 
 import android.content.Intent;
 import android.os.Bundle;

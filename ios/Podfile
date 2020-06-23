@@ -44,8 +44,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'PositivoOn' do
-  # Pods for PositivoOn
+target 'feedz' do
+  # Pods for feedz
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -79,7 +79,7 @@ target 'PositivoOn' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
-  target 'PositivoOnTests' do
+  target 'feedzTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -96,10 +96,10 @@ target 'PositivoOn' do
   end
 end
 
-target 'PositivoOn-tvOS' do
-  # Pods for PositivoOn-tvOS
+target 'feedz-tvOS' do
+  # Pods for feedz-tvOS
 
-  target 'PositivoOn-tvOSTests' do
+  target 'feedz-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

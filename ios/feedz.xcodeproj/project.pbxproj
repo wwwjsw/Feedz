@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* PositivoOnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PositivoOnTests.m */; };
+		00E356F31AD99517003FC87E /* feedzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* feedzTests.m */; };
 		04F7984A5CFC49549088B1E8 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A581CC9B174A24AE3BF81A /* Roboto-Regular.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2A49F526F74C115C98892A26 /* libPods-PositivoOn-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34AC599C7599D4828AF90AAF /* libPods-PositivoOn-tvOS.a */; };
+		2A49F526F74C115C98892A26 /* libPods-feedz-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34AC599C7599D4828AF90AAF /* libPods-feedz-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* PositivoOnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PositivoOnTests.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* feedzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* feedzTests.m */; };
 		451582AEC8CB4FC1AB79737C /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8428748EEC43434FA6497E5C /* Roboto-Black.ttf */; };
 		5C15BFB1858D46369CBB21AF /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06DDD02515DC47F5AA372938 /* Roboto-Light.ttf */; };
 		70F2898B1DBC462DADE5A1AB /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05396301A84343FCA34306AE /* Roboto-Bold.ttf */; };
 		9CF25616769F44F18611B8BE /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3173E5CBB8411DAB53DF6A /* Roboto-Thin.ttf */; };
-		9D6079ADAEEC9392CE12F666 /* libPods-PositivoOn-PositivoOnTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BC894CEEB0F46506D19D4A /* libPods-PositivoOn-PositivoOnTests.a */; };
+		9D6079ADAEEC9392CE12F666 /* libPods-feedz-feedzTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BC894CEEB0F46506D19D4A /* libPods-feedz-feedzTests.a */; };
 		D7127508B2874189B0E650FE /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4D56A1269E7414D813AB5B4 /* Roboto-Medium.ttf */; };
-		E37155ECCB2A2C626724CFE1 /* libPods-PositivoOn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 145ACE04B12AE48DEEC93AA0 /* libPods-PositivoOn.a */; };
-		ECD962666AA61E3BDFF056EC /* libPods-PositivoOn-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE69B7A6F3FEE6A81BF71E8 /* libPods-PositivoOn-tvOSTests.a */; };
+		E37155ECCB2A2C626724CFE1 /* libPods-feedz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 145ACE04B12AE48DEEC93AA0 /* libPods-feedz.a */; };
+		ECD962666AA61E3BDFF056EC /* libPods-feedz-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE69B7A6F3FEE6A81BF71E8 /* libPods-feedz-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,63 +34,63 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = PositivoOn;
+			remoteInfo = feedz;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "PositivoOn-tvOS";
+			remoteInfo = "feedz-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* PositivoOnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PositivoOnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* feedzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = feedzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* PositivoOnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PositivoOnTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* feedzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = feedzTests.m; sourceTree = "<group>"; };
 		05396301A84343FCA34306AE /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/global/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		06DDD02515DC47F5AA372938 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../src/global/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
 		0A3173E5CBB8411DAB53DF6A /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../src/global/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		134F05F865F647BEA0691B71 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* PositivoOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PositivoOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PositivoOn/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PositivoOn/AppDelegate.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* feedz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = feedz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = feedz/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = feedz/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PositivoOn/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PositivoOn/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PositivoOn/main.m; sourceTree = "<group>"; };
-		145ACE04B12AE48DEEC93AA0 /* libPods-PositivoOn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PositivoOn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EE6970DD96E2DDB43506668 /* Pods-PositivoOn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PositivoOn.debug.xcconfig"; path = "Target Support Files/Pods-PositivoOn/Pods-PositivoOn.debug.xcconfig"; sourceTree = "<group>"; };
-		20823F3093EE4E02641B2AD8 /* Pods-PositivoOn-PositivoOnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PositivoOn-PositivoOnTests.release.xcconfig"; path = "Target Support Files/Pods-PositivoOn-PositivoOnTests/Pods-PositivoOn-PositivoOnTests.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = feedz/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = feedz/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = feedz/main.m; sourceTree = "<group>"; };
+		145ACE04B12AE48DEEC93AA0 /* libPods-feedz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-feedz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE6970DD96E2DDB43506668 /* Pods-feedz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feedz.debug.xcconfig"; path = "Target Support Files/Pods-feedz/Pods-feedz.debug.xcconfig"; sourceTree = "<group>"; };
+		20823F3093EE4E02641B2AD8 /* Pods-feedz-feedzTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feedz-feedzTests.release.xcconfig"; path = "Target Support Files/Pods-feedz-feedzTests/Pods-feedz-feedzTests.release.xcconfig"; sourceTree = "<group>"; };
 		20FB7C58CCFB475E9EB8FE96 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
-		238E66624C12C99CCB5A7762 /* Pods-PositivoOn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PositivoOn.release.xcconfig"; path = "Target Support Files/Pods-PositivoOn/Pods-PositivoOn.release.xcconfig"; sourceTree = "<group>"; };
+		238E66624C12C99CCB5A7762 /* Pods-feedz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feedz.release.xcconfig"; path = "Target Support Files/Pods-feedz/Pods-feedz.release.xcconfig"; sourceTree = "<group>"; };
 		23A2BEDA8FC9417E87D6F506 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		27A1EF70DFC74EEE9743413F /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* PositivoOn-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PositivoOn-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* PositivoOn-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PositivoOn-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* feedz-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "feedz-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* feedz-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "feedz-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D03340213D476C80F5A8BC /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
-		34AC599C7599D4828AF90AAF /* libPods-PositivoOn-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PositivoOn-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3672C9DDD73938D5A877E00C /* Pods-PositivoOn-PositivoOnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PositivoOn-PositivoOnTests.debug.xcconfig"; path = "Target Support Files/Pods-PositivoOn-PositivoOnTests/Pods-PositivoOn-PositivoOnTests.debug.xcconfig"; sourceTree = "<group>"; };
-		48A47B05255AD56017B017F2 /* Pods-PositivoOn-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PositivoOn-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-PositivoOn-tvOS/Pods-PositivoOn-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		4F7A594D12853B1CDC6DAD63 /* Pods-PositivoOn-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PositivoOn-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-PositivoOn-tvOSTests/Pods-PositivoOn-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		34AC599C7599D4828AF90AAF /* libPods-feedz-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-feedz-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3672C9DDD73938D5A877E00C /* Pods-feedz-feedzTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feedz-feedzTests.debug.xcconfig"; path = "Target Support Files/Pods-feedz-feedzTests/Pods-feedz-feedzTests.debug.xcconfig"; sourceTree = "<group>"; };
+		48A47B05255AD56017B017F2 /* Pods-feedz-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feedz-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-feedz-tvOS/Pods-feedz-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4F7A594D12853B1CDC6DAD63 /* Pods-feedz-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feedz-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-feedz-tvOSTests/Pods-feedz-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5735CF3CC4224F7AB2EA690F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		593BFE1D839244BD81A484AD /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		655A15CB57A94B50A24A97FB /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		79833806EBEC4B87AD40C8BC /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		8428748EEC43434FA6497E5C /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../src/global/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
 		8DD9340037694CA7AB8D71C5 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
-		951433B53A7BFDDA2E73ABE0 /* Pods-PositivoOn-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PositivoOn-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-PositivoOn-tvOSTests/Pods-PositivoOn-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		951433B53A7BFDDA2E73ABE0 /* Pods-feedz-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feedz-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-feedz-tvOSTests/Pods-feedz-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		96A48A85E1F140E5825E8C2C /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		9AA6FCD503324246BAA3259F /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
-		9AE69B7A6F3FEE6A81BF71E8 /* libPods-PositivoOn-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PositivoOn-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE69B7A6F3FEE6A81BF71E8 /* libPods-feedz-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-feedz-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB342BEB8E34F2A94A8895C /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		AA8910284A934332867E8662 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
-		B451223C926AB59F8D74EA27 /* Pods-PositivoOn-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PositivoOn-tvOS.release.xcconfig"; path = "Target Support Files/Pods-PositivoOn-tvOS/Pods-PositivoOn-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		B451223C926AB59F8D74EA27 /* Pods-feedz-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feedz-tvOS.release.xcconfig"; path = "Target Support Files/Pods-feedz-tvOS/Pods-feedz-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		C313B7AF08FA40F487E7E950 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		D0A6C3080F344C6AB2C74467 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
-		E2BC894CEEB0F46506D19D4A /* libPods-PositivoOn-PositivoOnTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PositivoOn-PositivoOnTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BC894CEEB0F46506D19D4A /* libPods-feedz-feedzTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-feedz-feedzTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A581CC9B174A24AE3BF81A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/global/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -102,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D6079ADAEEC9392CE12F666 /* libPods-PositivoOn-PositivoOnTests.a in Frameworks */,
+				9D6079ADAEEC9392CE12F666 /* libPods-feedz-feedzTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A49F526F74C115C98892A26 /* libPods-PositivoOn-tvOS.a in Frameworks */,
+				2A49F526F74C115C98892A26 /* libPods-feedz-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECD962666AA61E3BDFF056EC /* libPods-PositivoOn-tvOSTests.a in Frameworks */,
+				ECD962666AA61E3BDFF056EC /* libPods-feedz-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,20 +126,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E37155ECCB2A2C626724CFE1 /* libPods-PositivoOn.a in Frameworks */,
+				E37155ECCB2A2C626724CFE1 /* libPods-feedz.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* PositivoOnTests */ = {
+		00E356EF1AD99517003FC87E /* feedzTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* PositivoOnTests.m */,
+				00E356F21AD99517003FC87E /* feedzTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = PositivoOnTests;
+			path = feedzTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -150,7 +150,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* PositivoOn */ = {
+		13B07FAE1A68108700A75B9A /* feedz */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -161,7 +161,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = PositivoOn;
+			name = feedz;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -169,10 +169,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				145ACE04B12AE48DEEC93AA0 /* libPods-PositivoOn.a */,
-				E2BC894CEEB0F46506D19D4A /* libPods-PositivoOn-PositivoOnTests.a */,
-				34AC599C7599D4828AF90AAF /* libPods-PositivoOn-tvOS.a */,
-				9AE69B7A6F3FEE6A81BF71E8 /* libPods-PositivoOn-tvOSTests.a */,
+				145ACE04B12AE48DEEC93AA0 /* libPods-feedz.a */,
+				E2BC894CEEB0F46506D19D4A /* libPods-feedz-feedzTests.a */,
+				34AC599C7599D4828AF90AAF /* libPods-feedz-tvOS.a */,
+				9AE69B7A6F3FEE6A81BF71E8 /* libPods-feedz-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -209,14 +209,14 @@
 		7DB4CE4E30FC3D4C7FE0E5E7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1EE6970DD96E2DDB43506668 /* Pods-PositivoOn.debug.xcconfig */,
-				238E66624C12C99CCB5A7762 /* Pods-PositivoOn.release.xcconfig */,
-				3672C9DDD73938D5A877E00C /* Pods-PositivoOn-PositivoOnTests.debug.xcconfig */,
-				20823F3093EE4E02641B2AD8 /* Pods-PositivoOn-PositivoOnTests.release.xcconfig */,
-				48A47B05255AD56017B017F2 /* Pods-PositivoOn-tvOS.debug.xcconfig */,
-				B451223C926AB59F8D74EA27 /* Pods-PositivoOn-tvOS.release.xcconfig */,
-				4F7A594D12853B1CDC6DAD63 /* Pods-PositivoOn-tvOSTests.debug.xcconfig */,
-				951433B53A7BFDDA2E73ABE0 /* Pods-PositivoOn-tvOSTests.release.xcconfig */,
+				1EE6970DD96E2DDB43506668 /* Pods-feedz.debug.xcconfig */,
+				238E66624C12C99CCB5A7762 /* Pods-feedz.release.xcconfig */,
+				3672C9DDD73938D5A877E00C /* Pods-feedz-feedzTests.debug.xcconfig */,
+				20823F3093EE4E02641B2AD8 /* Pods-feedz-feedzTests.release.xcconfig */,
+				48A47B05255AD56017B017F2 /* Pods-feedz-tvOS.debug.xcconfig */,
+				B451223C926AB59F8D74EA27 /* Pods-feedz-tvOS.release.xcconfig */,
+				4F7A594D12853B1CDC6DAD63 /* Pods-feedz-tvOSTests.debug.xcconfig */,
+				951433B53A7BFDDA2E73ABE0 /* Pods-feedz-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -231,9 +231,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* PositivoOn */,
+				13B07FAE1A68108700A75B9A /* feedz */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* PositivoOnTests */,
+				00E356EF1AD99517003FC87E /* feedzTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				46C941A5C5924A5CA6D6AA94 /* Resources */,
@@ -247,10 +247,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* PositivoOn.app */,
-				00E356EE1AD99517003FC87E /* PositivoOnTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* PositivoOn-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* PositivoOn-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* feedz.app */,
+				00E356EE1AD99517003FC87E /* feedzTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* feedz-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* feedz-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -258,9 +258,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* PositivoOnTests */ = {
+		00E356ED1AD99517003FC87E /* feedzTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PositivoOnTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "feedzTests" */;
 			buildPhases = (
 				C4837A881EFABAACFC7B585A /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -273,14 +273,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = PositivoOnTests;
-			productName = PositivoOnTests;
-			productReference = 00E356EE1AD99517003FC87E /* PositivoOnTests.xctest */;
+			name = feedzTests;
+			productName = feedzTests;
+			productReference = 00E356EE1AD99517003FC87E /* feedzTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* PositivoOn */ = {
+		13B07F861A680F5B00A75B9A /* feedz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PositivoOn" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "feedz" */;
 			buildPhases = (
 				B2126451642912E8831D51A0 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -294,14 +294,14 @@
 			);
 			dependencies = (
 			);
-			name = PositivoOn;
-			productName = PositivoOn;
-			productReference = 13B07F961A680F5B00A75B9A /* PositivoOn.app */;
+			name = feedz;
+			productName = feedz;
+			productReference = 13B07F961A680F5B00A75B9A /* feedz.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* PositivoOn-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* feedz-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PositivoOn-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "feedz-tvOS" */;
 			buildPhases = (
 				AC15683A273A734432562E34 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -314,14 +314,14 @@
 			);
 			dependencies = (
 			);
-			name = "PositivoOn-tvOS";
-			productName = "PositivoOn-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* PositivoOn-tvOS.app */;
+			name = "feedz-tvOS";
+			productName = "feedz-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* feedz-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* PositivoOn-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* feedz-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PositivoOn-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "feedz-tvOSTests" */;
 			buildPhases = (
 				CDBE5494D287176D01830C13 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -333,9 +333,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "PositivoOn-tvOSTests";
-			productName = "PositivoOn-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* PositivoOn-tvOSTests.xctest */;
+			name = "feedz-tvOSTests";
+			productName = "feedz-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* feedz-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -364,7 +364,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PositivoOn" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "feedz" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -377,10 +377,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* PositivoOn */,
-				00E356ED1AD99517003FC87E /* PositivoOnTests */,
-				2D02E47A1E0B4A5D006451C7 /* PositivoOn-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* PositivoOn-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* feedz */,
+				00E356ED1AD99517003FC87E /* feedzTests */,
+				2D02E47A1E0B4A5D006451C7 /* feedz-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* feedz-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -460,7 +460,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PositivoOn-PositivoOnTests/Pods-PositivoOn-PositivoOnTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-feedz-feedzTests/Pods-feedz-feedzTests-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -499,7 +499,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PositivoOn-PositivoOnTests/Pods-PositivoOn-PositivoOnTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-feedz-feedzTests/Pods-feedz-feedzTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AC15683A273A734432562E34 /* [CP] Check Pods Manifest.lock */ = {
@@ -517,7 +517,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PositivoOn-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-feedz-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -539,7 +539,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PositivoOn-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-feedz-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -561,7 +561,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PositivoOn-PositivoOnTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-feedz-feedzTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -583,7 +583,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PositivoOn-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-feedz-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -596,7 +596,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PositivoOn/Pods-PositivoOn-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-feedz/Pods-feedz-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -635,7 +635,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PositivoOn/Pods-PositivoOn-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-feedz/Pods-feedz-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -683,7 +683,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* PositivoOnTests.m in Sources */,
+				00E356F31AD99517003FC87E /* feedzTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -709,7 +709,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* PositivoOnTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* feedzTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,12 +718,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* PositivoOn */;
+			target = 13B07F861A680F5B00A75B9A /* feedz */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* PositivoOn-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* feedz-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -735,7 +735,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = PositivoOn;
+			path = feedz;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -743,14 +743,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3672C9DDD73938D5A877E00C /* Pods-PositivoOn-PositivoOnTests.debug.xcconfig */;
+			baseConfigurationReference = 3672C9DDD73938D5A877E00C /* Pods-feedz-feedzTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = PositivoOnTests/Info.plist;
+				INFOPLIST_FILE = feedzTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -760,17 +760,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PositivoOn.app/PositivoOn";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/feedz.app/feedz";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20823F3093EE4E02641B2AD8 /* Pods-PositivoOn-PositivoOnTests.release.xcconfig */;
+			baseConfigurationReference = 20823F3093EE4E02641B2AD8 /* Pods-feedz-feedzTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = PositivoOnTests/Info.plist;
+				INFOPLIST_FILE = feedzTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -780,13 +780,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PositivoOn.app/PositivoOn";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/feedz.app/feedz";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EE6970DD96E2DDB43506668 /* Pods-PositivoOn.debug.xcconfig */;
+			baseConfigurationReference = 1EE6970DD96E2DDB43506668 /* Pods-feedz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -796,7 +796,7 @@
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = PositivoOn/Info.plist;
+				INFOPLIST_FILE = feedz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -804,7 +804,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = PositivoOn;
+				PRODUCT_NAME = feedz;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -813,12 +813,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 238E66624C12C99CCB5A7762 /* Pods-PositivoOn.release.xcconfig */;
+			baseConfigurationReference = 238E66624C12C99CCB5A7762 /* Pods-feedz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = PositivoOn/Info.plist;
+				INFOPLIST_FILE = feedz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -826,7 +826,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = PositivoOn;
+				PRODUCT_NAME = feedz;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -834,7 +834,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48A47B05255AD56017B017F2 /* Pods-PositivoOn-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 48A47B05255AD56017B017F2 /* Pods-feedz-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -845,14 +845,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PositivoOn-tvOS/Info.plist";
+				INFOPLIST_FILE = "feedz-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.PositivoOn-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.feedz-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -862,7 +862,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B451223C926AB59F8D74EA27 /* Pods-PositivoOn-tvOS.release.xcconfig */;
+			baseConfigurationReference = B451223C926AB59F8D74EA27 /* Pods-feedz-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -873,14 +873,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PositivoOn-tvOS/Info.plist";
+				INFOPLIST_FILE = "feedz-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.PositivoOn-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.feedz-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -890,7 +890,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F7A594D12853B1CDC6DAD63 /* Pods-PositivoOn-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 4F7A594D12853B1CDC6DAD63 /* Pods-feedz-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -900,24 +900,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PositivoOn-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "feedz-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.PositivoOn-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.feedz-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PositivoOn-tvOS.app/PositivoOn-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/feedz-tvOS.app/feedz-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 951433B53A7BFDDA2E73ABE0 /* Pods-PositivoOn-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 951433B53A7BFDDA2E73ABE0 /* Pods-feedz-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -927,17 +927,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PositivoOn-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "feedz-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.PositivoOn-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.feedz-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PositivoOn-tvOS.app/PositivoOn-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/feedz-tvOS.app/feedz-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -1058,7 +1058,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PositivoOnTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "feedzTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1067,7 +1067,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PositivoOn" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "feedz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1076,7 +1076,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PositivoOn-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "feedz-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1085,7 +1085,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PositivoOn-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "feedz-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1094,7 +1094,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PositivoOn" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "feedz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
