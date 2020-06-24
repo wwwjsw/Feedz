@@ -63,8 +63,13 @@ export const FormControl = styled.View<IFormControlProps>`
    flex-direction: row;
    align-items: center;
 `;
+interface IFormInput {
+   name?: string;
+}
 
-export const FormInput = styled.TextInput`
+export const FormInput = styled.TextInput.attrs((props: IFormInput) => ({
+   name: props.name,
+}))`
    color: #212121;
    font-size: 14px;
    font-family: 'Roboto-Regular';

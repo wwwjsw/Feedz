@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import { TouchableOpacity, View } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import { TouchableOpacity, View, Alert } from 'react-native';
+import { useForm } from 'react-hook-form';
 import { useNavigation } from '@react-navigation/native';
 import MDIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 
@@ -19,6 +20,12 @@ import {
 
 MDIcon.loadFont();
 
+type FormData = {
+   nome: string;
+   email: string;
+   senha: string;
+};
+
 const Cadastro: React.FC = () => {
    const navigation = useNavigation();
    const [formInputStyle, setFormInputStyle] = useState({
@@ -26,34 +33,22 @@ const Cadastro: React.FC = () => {
       borderColor: '#00000026',
       iconColor: '#000',
    });
-   const [nome, setNome] = useState('');
-   const [email, setEmail] = useState('');
-   const [senha, setSenha] = useState('');
    const [errorMessage, setErrorMessage] = useState('');
+   const { register, setValue, handleSubmit, errors } = useForm<FormData>();
 
-   const clearForm = (): void => {
-      setTimeout(() => {
-         setErrorMessage('');
-         setFormInputStyle({
-            labelColor: '#741171',
-            borderColor: '#00000026',
-            iconColor: '#741171',
-         });
-      }, 3000);
-   };
+   const onSubmit = (data): void => Alert.alert('Form Data', JSON.stringify(data));
 
-   const validate = (): void => {
-      if (data === '') {
-         setErrorMessage('Chave inexistente');
-         setFormInputStyle({
-            labelColor: '#D32F2F',
-            borderColor: '#D32F2F',
-            iconColor: '#D32F2F',
-         });
-
-         clearForm();
-      }
-   };
+   useEffect(() => {
+      register({ name: 'nome' }, { required: true, minLength: 3 });
+      register(
+         { name: 'email' },
+         {
+            required: true,
+            pattern: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+         },
+      );
+      register({ name: 'senha' }, { required: true, minLength: 6 });
+   }, [register]);
 
    return (
       <Container>
@@ -87,11 +82,12 @@ const Cadastro: React.FC = () => {
                   placeholder="Insira seu nome"
                   autoCapitalize="none"
                   autoCorrect={false}
-                  value={nome}
-                  onChangeText={setNome}
+                  onChangeText={(text): void => setValue('nome', text, true)}
                />
             </FormControl>
-
+            {errors.nome && (
+               <Label labelColor="#790000">Verifique o nome</Label>
+            )}
             <Label labelColor={formInputStyle.labelColor}>E-mail</Label>
             <FormControl borderColor={formInputStyle.borderColor}>
                <MDIcon
@@ -103,25 +99,27 @@ const Cadastro: React.FC = () => {
                   placeholder="Insira seu e-mail"
                   autoCapitalize="none"
                   autoCorrect={false}
-                  value={email}
-                  onChangeText={setEmail}
+                  onChangeText={(text): void => setValue('email', text, true)}
                />
             </FormControl>
-
+            {errors.email && (
+               <Label labelColor="#790000">Verifique o email</Label>
+            )}
             <Label labelColor={formInputStyle.labelColor}>Senha</Label>
             <FormControl borderColor={formInputStyle.borderColor}>
                <MDIcon name="lock" size={24} color={formInputStyle.iconColor} />
                <FormInput
                   placeholder="Insira sua senha"
+                  secureTextEntry
                   autoCapitalize="none"
                   autoCorrect={false}
-                  value={senha}
-                  onChangeText={setSenha}
+                  onChangeText={(text): void => setValue('senha', text, true)}
                />
             </FormControl>
-            <ErrorMessage>{errorMessage}</ErrorMessage>
-
-            <ActionButton marginTop="10px" onPress={validate}>
+            {errors.senha && (
+               <Label labelColor="#790000">Verifique a senha</Label>
+            )}
+            <ActionButton marginTop="10px" onPress={handleSubmit(onSubmit)}>
                <TextButton>Ok</TextButton>
             </ActionButton>
          </Content>
