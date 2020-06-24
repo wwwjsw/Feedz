@@ -234,11 +234,16 @@ const Home: React.FC = () => {
                      numberOfLines={0}
                      scrollEnabled
                      autoFocus
+                     maxLength={280}
                      autoCorrect={false}
                      value={postEditText}
                      onChangeText={setPostEditText}
                   />
                </FormControl>
+               <CountCaracter>
+                  {postEditText.length}
+                  /280
+               </CountCaracter>
                <ActionButton
                   marginTop="10px"
                   onPress={(): void => {
