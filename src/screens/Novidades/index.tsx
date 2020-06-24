@@ -41,7 +41,7 @@ const Home: React.FC = () => {
 
             const sortedNews = newsJSON.sort(
                (a, b) =>
-                  new Date(b.message.created_at) +
+                  new Date(b.message.created_at) -
                   new Date(a.message.created_at),
             );
             setData(sortedNews);
@@ -60,8 +60,7 @@ const Home: React.FC = () => {
    }
 
    function Item({ post }: { post: INovidade }): ReactElement {
-      const calendario = new Date(post.message.created_at).toLocaleDateString();
-      const hora = new Date(post.message.created_at).toLocaleTimeString();
+      const calendario = new Date(post.message.created_at).toLocaleDateString('pt-br');
 
       return (
          <PostCard>
@@ -73,7 +72,7 @@ const Home: React.FC = () => {
             </PostCardTitle>
             <PostCardContent>
                <PostCardName>{post.user.name}</PostCardName>
-               <PostCardData>{`${calendario} - ${hora}`}</PostCardData>
+               <PostCardData>{calendario}</PostCardData>
                <PostCardText>{post.message.content}</PostCardText>
             </PostCardContent>
          </PostCard>
