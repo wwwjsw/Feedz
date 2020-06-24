@@ -49,6 +49,8 @@ export const PostCardData = styled.Text`
 
 export const PostCardAvatar = styled.Image`
    width: 80px;
+   border-color: #666;
+   border-width: 1px;
    height: 80px;
    border-radius: 40px;
 `;

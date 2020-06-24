@@ -57,9 +57,7 @@ const Home: React.FC = () => {
          <PostCard>
             <PostCardTitle>
                <PostCardAvatar
-                  source={{
-                     uri: post.user.profile_picture,
-                  }}
+                  source={defaultPicture}
                   defaultSource={defaultPicture}
                />
             </PostCardTitle>
