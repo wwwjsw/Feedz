@@ -83,7 +83,7 @@ const Home: React.FC = () => {
    return (
       <>
          <Header
-            title="Home"
+            title="Novidades"
             onDrawer={toggleDrawer}
             onFilter={handleSubmit}
             color="#741171"
