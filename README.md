@@ -1,6 +1,6 @@
 # Feedz
 
-Feedz é um app que simula uma rede social construido em React Native, usando as seguintes tecnologias:
+Feedz é um app que simula uma rede social construido em React Native, foi feito para teste de vaga frontend na boticário, usando as seguintes tecnologias:
    - Typescript.
    - Redux.
    - Redux Saga.
