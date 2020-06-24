@@ -67,7 +67,6 @@ export function* signIn({
             yield put(signInSuccess(token));
 
             NavigationService.navigate('Home');
-            console.tron.log('nav');
          } else {
             console.log('errorPerfil', errorPerfil);
          }

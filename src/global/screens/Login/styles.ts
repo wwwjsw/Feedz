@@ -1,5 +1,4 @@
 import styled from 'styled-components/native';
-import LinearGradient from 'react-native-linear-gradient';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { Dimensions, Platform } from 'react-native';
 
@@ -37,8 +36,8 @@ export const ImgLogo = styled.Image`
 `;
 
 export const Label = styled.Text<IColorError>`
-   font-size: 12px;
-   color: ${(props): string => (props.error ? '#d32f2f' : '#741171')};
+   font-size: 14px;
+   color: ${(props): string => (props.error ? '#d32f2f' : '#000')};
    margin: 20px 10px 5px 18px;
    font-family: 'Roboto-Medium';
 `;

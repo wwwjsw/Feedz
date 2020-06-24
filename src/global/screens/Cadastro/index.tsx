@@ -22,11 +22,13 @@ MDIcon.loadFont();
 const Cadastro: React.FC = () => {
    const navigation = useNavigation();
    const [formInputStyle, setFormInputStyle] = useState({
-      labelColor: '#741171',
+      labelColor: '#000',
       borderColor: '#00000026',
-      iconColor: '#741171',
+      iconColor: '#000',
    });
-   const [data, setData] = useState('');
+   const [nome, setNome] = useState('');
+   const [email, setEmail] = useState('');
+   const [senha, setSenha] = useState('');
    const [errorMessage, setErrorMessage] = useState('');
 
    const clearForm = (): void => {
@@ -85,8 +87,8 @@ const Cadastro: React.FC = () => {
                   placeholder="Insira seu nome"
                   autoCapitalize="none"
                   autoCorrect={false}
-                  value={data}
-                  onChangeText={setData}
+                  value={nome}
+                  onChangeText={setNome}
                />
             </FormControl>
 
@@ -101,8 +103,8 @@ const Cadastro: React.FC = () => {
                   placeholder="Insira seu e-mail"
                   autoCapitalize="none"
                   autoCorrect={false}
-                  value={data}
-                  onChangeText={setData}
+                  value={email}
+                  onChangeText={setEmail}
                />
             </FormControl>
 
@@ -113,8 +115,8 @@ const Cadastro: React.FC = () => {
                   placeholder="Insira sua senha"
                   autoCapitalize="none"
                   autoCorrect={false}
-                  value={data}
-                  onChangeText={setData}
+                  value={senha}
+                  onChangeText={setSenha}
                />
             </FormControl>
             <ErrorMessage>{errorMessage}</ErrorMessage>

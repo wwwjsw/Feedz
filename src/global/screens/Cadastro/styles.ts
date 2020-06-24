@@ -48,7 +48,7 @@ export const Paragraph = styled.Text`
 
 export const Label = styled.Text<ILabelProps>`
    width: 100%;
-   font-size: 11px;
+   font-size: 14px;
    font-family: 'Roboto-Medium';
    color: ${(props): string => props.labelColor};
    margin-left: 20px;

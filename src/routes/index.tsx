@@ -17,7 +17,7 @@ interface INavigationProps {
 function HomeNavigator(): ReactElement {
    return (
       <Stack.Navigator headerMode="none">
-         <Stack.Screen name="aluno" component={userRoute} />
+         <Stack.Screen name="Home" component={userRoute} />
       </Stack.Navigator>
    );
 }

@@ -92,7 +92,7 @@ const Login: React.FC = () => {
                      <Label error={erroLogin}>Login</Label>
                      <ViewInput error={erroLogin}>
                         <IconInput
-                           color={erroLogin ? '#d32f2f' : '#741171'}
+                           color={erroLogin ? '#d32f2f' : '#000'}
                            size={26}
                            name="person"
                         />
@@ -120,7 +120,7 @@ const Login: React.FC = () => {
                      <Label error={erroLogin}>Senha</Label>
                      <ViewInput error={erroLogin}>
                         <IconInput
-                           color={erroLogin ? '#d32f2f' : '#741171'}
+                           color={erroLogin ? '#d32f2f' : '#000'}
                            size={26}
                            name="lock"
                         />

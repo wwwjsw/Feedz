@@ -62,7 +62,7 @@ export default function RootNavigator(): ReactElement {
    );
 }
 
-export declare type AlunoProps = CompositeNavigationProp<
+export declare type HomeProps = CompositeNavigationProp<
    StackNavigationProp<RootStackParamList>,
    DrawerNavigationProp<DrawerParamList>
 >;
