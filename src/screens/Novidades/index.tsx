@@ -37,7 +37,14 @@ const Home: React.FC = () => {
          const novidades = await AsyncStorage.getItem('novidades');
 
          if (novidades) {
-            setData(JSON.parse(novidades));
+            const newsJSON = JSON.parse(novidades);
+
+            const sortedNews = newsJSON.sort(
+               (a, b) =>
+                  new Date(b.message.created_at) +
+                  new Date(a.message.created_at),
+            );
+            setData(sortedNews);
          }
       }
 
@@ -53,6 +60,9 @@ const Home: React.FC = () => {
    }
 
    function Item({ post }: { post: INovidade }): ReactElement {
+      const calendario = new Date(post.message.created_at).toLocaleDateString();
+      const hora = new Date(post.message.created_at).toLocaleTimeString();
+
       return (
          <PostCard>
             <PostCardTitle>
@@ -63,9 +73,7 @@ const Home: React.FC = () => {
             </PostCardTitle>
             <PostCardContent>
                <PostCardName>{post.user.name}</PostCardName>
-               <PostCardData>
-                  {new Date(post.message.created_at).toUTCString()}
-               </PostCardData>
+               <PostCardData>{`${calendario} - ${hora}`}</PostCardData>
                <PostCardText>{post.message.content}</PostCardText>
             </PostCardContent>
          </PostCard>
