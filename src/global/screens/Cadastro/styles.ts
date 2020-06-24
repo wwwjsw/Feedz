@@ -58,6 +58,7 @@ export const FormControl = styled.View<IFormControlProps>`
    padding: ${Platform.OS === 'ios' ? '10px 5px' : '0 10px'};
    margin: 0px 10px 10px 10px;
    align-self: stretch;
+   border-radius: 3px;
    background-color: #00000005;
    border: 1px solid ${(props): string => props.borderColor};
    flex-direction: row;

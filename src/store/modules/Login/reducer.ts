@@ -29,6 +29,11 @@ export default function login(
             draft.loading = false;
             break;
          }
+         case LoginTypes.SIGN_IN_ERROR: {
+            draft.error = true;
+            draft.loading = false;
+            break;
+         }
 
          case LoginTypes.SIGN_OUT_REQUEST: {
             draft.token = '';

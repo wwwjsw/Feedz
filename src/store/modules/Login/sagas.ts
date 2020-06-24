@@ -3,7 +3,7 @@ import { takeLatest, call, put, all } from 'redux-saga/effects';
 import AsyncStorage from '@react-native-community/async-storage';
 import { LoginTypes } from './types';
 
-import { signInSuccess } from './actions';
+import { signInSuccess, signInError } from './actions';
 
 import api from '../../../services/api';
 import NavigationService from '../../../services/navigation';
@@ -72,6 +72,7 @@ export function* signIn({
          }
       } else {
          console.log('errorLogin', errorLogin);
+         yield put(signInError());
       }
    } catch (error) {
       throw new Error(error);
