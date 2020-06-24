@@ -17,11 +17,3 @@ export const Container = styled.SafeAreaView`
 `;
 
 export const IconDrawerCommunity = styled(Icon)``;
-
-export const IconDrawerMaterial = styled(IconMaterial)``;
-
-export const ImageIcon = styled.Image<IStyleGlobal>`
-   width: 20px;
-   height: 20px;
-   tint-color: ${(props): string | undefined => props.tintColor};
-`;

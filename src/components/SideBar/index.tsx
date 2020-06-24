@@ -24,8 +24,6 @@ import {
    TextName,
 } from './styles';
 
-import logo from '../../global/assets/img/SplashScreen.png';
-
 const SideBar: React.FC<ISidebar> = ({ props, menuOptions }) => {
    const navigation = useNavigation();
    const [menu, setMenu] = useState(menuOptions);
@@ -49,7 +47,7 @@ const SideBar: React.FC<ISidebar> = ({ props, menuOptions }) => {
                </ViewCircle>
             </ViewInfoCircle>
             <ViewTextName>
-               <TextName>Nome</TextName>
+               <TextName>Beta Teste Da Silva</TextName>
             </ViewTextName>
          </SidebarContainer>
          {menu.map((options, index: number) => {
@@ -82,7 +80,7 @@ const SideBar: React.FC<ISidebar> = ({ props, menuOptions }) => {
                         </TextButton>
                      )}
                   </LogoutButton>
-                  {indexSelected === index && <ViewLine backColor="#741171" />}
+                  {indexSelected === index ? <ViewLine backColor="#741171" /> : <ViewLine backColor="#000" />}
                </Fragment>
             );
          })}

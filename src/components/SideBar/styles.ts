@@ -6,7 +6,7 @@ interface ISideBar {
 }
 
 export const SidebarContainer = styled.View`
-   height: 230px;
+   padding-bottom: 10px;
    margin-bottom: 10px;
 `;
 
@@ -58,5 +58,5 @@ export const ViewTextName = styled.View`
 export const TextName = styled.Text`
    font-family: 'Roboto-Regular';
    font-size: 20px;
-   color: #fff;
+   color: #000;
 `;
